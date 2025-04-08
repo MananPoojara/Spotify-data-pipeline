@@ -1,0 +1,6 @@
+boto3
+requests
+pandas
+python-dotenv
+s3fs
+pyyaml
