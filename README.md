@@ -123,10 +123,9 @@ LIMIT 10;
 ```bash
 spotify-data-pipeline/
 │
-├── extract_lambda/          # Lambda function to fetch data from Spotify
-├── transform_lambda/        # Lambda function to clean and process data
-├── utils/                   # Helper functions and shared logic
-├── sample_queries/          # Example Athena queries
+├── extract_lambda.ipynb     # Lambda function to fetch data from Spotify
+├── transform_lambda.ipynb   # Lambda function to clean and process data
+├── Spotify_data_Pipeline    # Example codes of lambda functions
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project documentation
 └── Capture.PNG              # Architecture diagram
